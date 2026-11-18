@@ -1,0 +1,6 @@
+# Hugging Face Spaces supplies PyTorch and Gradio for the selected Space SDK.
+# torchvision is installed here to match the runtime's preinstalled PyTorch.
+torchvision
+numpy
+Pillow
+matplotlib

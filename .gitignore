@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Gradio runtime data
+.gradio/
+flagged/
+flagged-data/
+
+# Logs and build output
+*.log
+build/
+dist/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
